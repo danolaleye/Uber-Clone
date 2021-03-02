@@ -1,0 +1,17 @@
+{
+  "trigger": true,
+  "modules": [
+    "custom"
+  ],
+  "parentResource": "uberclone1c20ca7a1c20ca7a",
+  "functionName": "uberclone1c20ca7a1c20ca7aPostConfirmation",
+  "resourceName": "uberclone1c20ca7a1c20ca7aPostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "/Users/owner/.config/yarn/global/node_modules/amplify-category-auth/provider-utils/awscloudformation/triggers/PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "triggerEventPath": "PostConfirmation.event.json",
+  "roleName": "uberclone1c20ca7a1c20ca7aPostConfirmation",
+  "skipEdit": true,
+  "enableCors": false
+}

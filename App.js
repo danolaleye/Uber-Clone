@@ -12,9 +12,15 @@ import { StatusBar, PermissionsAndroid, Platform } from "react-native";
 import * as Location from "expo-location";
 // import Geolocation from "@react-native-community/geolocation";
 
+import { withAuthenticator } from "aws-amplify-react-native";
+
 import Router from "./src/navigation/Root";
 
 // navigator.geolocation = require("@react-native-community/geolocation");
+
+import Amplify from "aws-amplify";
+import config from "./src/aws-exports";
+Amplify.configure(config);
 
 const App: () => React$Node = () => {
   const androidPermission = async () => {
@@ -50,7 +56,7 @@ const App: () => React$Node = () => {
   );
 };
 
-export default App;
+export default withAuthenticator(App);
 
 // const App: () => React$Node = () => {
 //   const androidPermission = async () => {

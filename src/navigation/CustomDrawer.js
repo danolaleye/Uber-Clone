@@ -4,6 +4,7 @@ import {
   DrawerContentScrollView,
   DrawerItemList,
 } from "@react-navigation/drawer";
+import { Auth } from "aws-amplify";
 
 const CustomDrawer = (props) => {
   return (
@@ -65,7 +66,6 @@ const CustomDrawer = (props) => {
           </Text>
         </Pressable>
 
-        {/* Make money */}
         <Pressable
           onPress={() => {
             console.warn("Make Money Driving");
@@ -78,6 +78,14 @@ const CustomDrawer = (props) => {
       </View>
 
       <DrawerItemList {...props} />
+
+      <Pressable
+        onPress={() => {
+          Auth.signOut();
+        }}
+      >
+        <Text style={{ padding: 5, paddingLeft: 20 }}>Logout</Text>
+      </Pressable>
     </DrawerContentScrollView>
   );
 };

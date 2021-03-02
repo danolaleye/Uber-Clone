@@ -8,11 +8,11 @@ import PlaceRow from "./PlaceRow";
 
 const homePlace = {
   description: "Home",
-  geometry: { location: { lat: 48.8152937, lng: 2.4597668 } },
+  geometry: { location: { lat: 45.3411402, lng: -75.8076152 } },
 };
 const workPlace = {
   description: "Work",
-  geometry: { location: { lat: 48.8496818, lng: 2.2940881 } },
+  geometry: { location: { lat: 45.5020607, lng: -73.571539 } },
 };
 
 const DestinationSearch = (props) => {
