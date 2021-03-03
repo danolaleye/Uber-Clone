@@ -18,7 +18,7 @@
       "function": {
         "uberclone1c20ca7a1c20ca7aPostConfirmation": {
           "deploymentBucketName": "amplify-uberclone-dev-111938-deployment",
-          "s3Key": "amplify-builds/uberclone1c20ca7a1c20ca7aPostConfirmation-52494e4458427a696355-build.zip"
+          "s3Key": "amplify-builds/uberclone1c20ca7a1c20ca7aPostConfirmation-757137522f4558765766-build.zip"
         }
       }
     }
