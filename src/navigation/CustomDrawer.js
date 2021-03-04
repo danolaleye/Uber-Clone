@@ -84,7 +84,9 @@ const CustomDrawer = (props) => {
           Auth.signOut();
         }}
       >
-        <Text style={{ padding: 5, paddingLeft: 20 }}>Logout</Text>
+        <Text style={{ color: "gray", padding: 5, paddingLeft: 20 }}>
+          Logout
+        </Text>
       </Pressable>
     </DrawerContentScrollView>
   );

@@ -33,7 +33,7 @@ const HomeSearch = (props) => {
         <View style={styles.iconContainer}>
           <AntDesign name={"clockcircle"} size={20} color={"#ffffff"} />
         </View>
-        <Text style={styles.destinationText}>Coinmiles</Text>
+        <Text style={styles.destinationText}> Coinmiles</Text>
       </View>
 
       {/* Home destination */}
@@ -41,7 +41,7 @@ const HomeSearch = (props) => {
         <View style={[styles.iconContainer, { backgroundColor: "#218cff" }]}>
           <Entypo name={"briefcase"} size={20} color={"#ffffff"} />
         </View>
-        <Text style={styles.destinationText}>Coinmiles</Text>
+        <Text style={styles.destinationText}> Coinmiles</Text>
       </View>
     </View>
   );

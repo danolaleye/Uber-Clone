@@ -45,10 +45,9 @@ const SearchResults = (props) => {
         })
       );
 
-      console.log("iyawon -----> " + JSON.stringify(response));
       Alert.alert(
-        "Order Success",
-        "Your request has been placed. Your ride is 2 minutes away",
+        "Arriving Soon",
+        "Dan is arriving soon in a Hyundai Sonata (CKCK-367281). Please wear a mask!",
         [
           {
             text: "Ok",
